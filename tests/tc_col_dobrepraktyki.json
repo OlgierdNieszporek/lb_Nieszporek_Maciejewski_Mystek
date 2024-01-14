@@ -1,0 +1,54 @@
+{
+    "_id": "76ec2d04-9269-43cb-84e7-e918a4bf01b7",
+    "colName": "dobrepraktyki",
+    "created": "2024-01-14T08:22:31.224Z",
+    "sortNum": 10000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "fad190c9-6f02-4e69-9371-337ccddf7c71",
+            "colId": "76ec2d04-9269-43cb-84e7-e918a4bf01b7",
+            "containerId": "",
+            "name": "/gateway",
+            "url": "http://127.0.0.1:8080",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-01-14T08:22:45.784Z",
+            "modified": "2024-01-14T08:24:13.923Z",
+            "headers": [],
+            "params": [],
+            "tests": [
+                {
+                    "type": "res-code",
+                    "custom": "",
+                    "action": "equal",
+                    "value": "200"
+                },
+                {
+                    "type": "res-body",
+                    "custom": "",
+                    "action": "equal",
+                    "value": "5001 - Myszkow jest wspaniale"
+                },
+                {
+                    "type": "res-body",
+                    "custom": "",
+                    "action": "equal",
+                    "value": "5002 - Myszkow jest wspaniale"
+                },
+                {
+                    "type": "res-body",
+                    "custom": "",
+                    "action": "equal",
+                    "value": "5003 - Myszkow jest wspaniale"
+                },
+                {
+                    "type": "res-body",
+                    "custom": "",
+                    "action": "equal",
+                    "value": "5004 - Myszkow jest wspaniale"
+                }
+            ]
+        }
+    ]
+}
